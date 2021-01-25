@@ -1,4 +1,4 @@
-# My-project
+# Tìm Hiểu Spark và MapReduce
 # Apache Spark
   - Được phát triển vào năm 2009 bởi AMPLab. Sau này Apache Software Foundation đã được trao quyền phát triển vào năm 2013.
   - Apache spark là một công cụ tính toán dữ liệu mã nguồn mở. Apache spark được thiết kế để hỗ trợ trong tính toán dữ liệu lớn, stream data, graph data và hỗ trợ các hệ thống trí tuệ nhân tạo, học máy.
