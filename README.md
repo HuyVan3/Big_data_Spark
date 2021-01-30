@@ -1,10 +1,10 @@
 # MỤC LỤC
-1. [Tìm Hiểu Spark và MapReduce](#spark-map)
+1. [Tìm Hiểu Spark và MapReduce](#sparkmap)
 2. [Apache Spark](#Apachespark)
 3. [MapReduce](#Mapreduce)
 
 
-## Tìm Hiểu Spark và MapReduce <a name="#spark-map"></a>
+## Tìm Hiểu Spark và MapReduce <a name="#sparkmap"></a>
 ## Apache Spark <a name="#Apachespark"></a>
   - Được phát triển vào năm 2009 bởi AMPLab. Sau này Apache Software Foundation đã được trao quyền phát triển vào năm 2013.
   - Apache spark là một công cụ tính toán dữ liệu mã nguồn mở. Apache spark được thiết kế để hỗ trợ trong tính toán dữ liệu lớn, stream data, graph data và hỗ trợ các hệ thống trí tuệ nhân tạo, học máy.
