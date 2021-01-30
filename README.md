@@ -1,6 +1,6 @@
 # MỤC LỤC
-1.[Tìm Hiểu Spark và MapReduce](#spark-map)
-2.[Apache Spark](#Apachespark)
+1. [Tìm Hiểu Spark và MapReduce](#spark-map)
+2. [Apache Spark](#Apachespark)
 3. [MapReduce](#Mapreduce)
 
 
