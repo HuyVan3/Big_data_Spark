@@ -1,11 +1,14 @@
 # Mục Lục
 1. [Tìm Hiểu Spark và MapReduce](#sparkmap)
-2. [Apache Spark](#Apachespark)
+2. [Apache Spark là gì](#Apachespark)
+  1. [Spark properties](#sparkprop)
+  2. [Spark RDD](#sparkrdd)
+  3. [Spark DataFrame](#sparkdata)
 3. [MapReduce](#Mapreduce)
 
 
 ## Tìm Hiểu Spark và MapReduce <a name="sparkmap"></a>
-## Apache Spark <a name="Apachespark"></a>
+## Apache Spark là gì <a name="Apachespark"></a>
   - Được phát triển vào năm 2009 bởi AMPLab. Sau này Apache Software Foundation đã được trao quyền phát triển vào năm 2013.
   - Apache spark là một công cụ tính toán dữ liệu mã nguồn mở. Apache spark được thiết kế để hỗ trợ trong tính toán dữ liệu lớn, stream data, graph data và hỗ trợ các hệ thống trí tuệ nhân tạo, học máy.
   - Tính năng nổi bật của Spark: tốc độ tính toán nhanh, hỗ trợ đa định dạng, và có nhiều thư viện hỗ trợ tính toán, đơn giản:
@@ -22,7 +25,9 @@
       - GrapX: Grapx là nền tảng xử lý đồ thị dựa trên Spark. Nó cung cấp các Api để diễn tả các tính toán trong đồ thị bằng cách sử dụng Pregel Api.
    - Spark là một công cụ quan trọng cốt lõi để xây dựng cái data warehouse cũng như xử lý lượng dữ liệu khổng lồ được tạo ra liên tục trên môi trường mạng. Đây là một phân khúc lớn trong ngành IT có khả năng thu về hàng tỉ đô doanh thu hằng năm.
    - Spark tạo ra nhiều lựa chọn cho các công cụ sử dụng hơn là chỉ mỗi Hadoop.
-  
+  ### Spark Properties
+  ### Spark RDD
+  ### Spark DataFrame
 ## MapReduce <a name="Mapreduce"></a>
   - MapReduce là mô hình tính toán được thiết kế có khả năng xử lý các tập dữ liệu lớn song song và công việc tính toán đó được chia đều ra trên 1 cụm máy tính.
   - Ý tưởng của MapReduce:
@@ -55,20 +60,3 @@
      - Thống kê số từ khóa trên các hostnames.
      - Distributed Sort.
   - [Count k Word](https://colab.research.google.com/drive/1lkCCFtDqb6-IGOqea-hTYxLQFyiYppS8)
-# Table of contents
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
-
-## This is the introduction <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
-
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
