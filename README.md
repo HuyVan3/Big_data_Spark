@@ -1,10 +1,10 @@
 # Mục Lục
 1. [Tìm Hiểu Spark và MapReduce](#sparkmap)
 2. [Apache Spark là gì](#Apachespark)
-  1. [Spark properties](#sparkprop)
-  2. [Spark RDD](#sparkrdd)
-  3. [Spark DataFrame](#sparkdata)
 3. [MapReduce](#Mapreduce)
+4. [Spark properties](#sparkprop)
+5. [Spark RDD](#sparkrdd)
+6. [Spark DataFrame](#sparkdata)
 
 
 ## Tìm Hiểu Spark và MapReduce <a name="sparkmap"></a>
@@ -25,9 +25,6 @@
       - GrapX: Grapx là nền tảng xử lý đồ thị dựa trên Spark. Nó cung cấp các Api để diễn tả các tính toán trong đồ thị bằng cách sử dụng Pregel Api.
    - Spark là một công cụ quan trọng cốt lõi để xây dựng cái data warehouse cũng như xử lý lượng dữ liệu khổng lồ được tạo ra liên tục trên môi trường mạng. Đây là một phân khúc lớn trong ngành IT có khả năng thu về hàng tỉ đô doanh thu hằng năm.
    - Spark tạo ra nhiều lựa chọn cho các công cụ sử dụng hơn là chỉ mỗi Hadoop.
-  ### Spark Properties
-  ### Spark RDD
-  ### Spark DataFrame
 ## MapReduce <a name="Mapreduce"></a>
   - MapReduce là mô hình tính toán được thiết kế có khả năng xử lý các tập dữ liệu lớn song song và công việc tính toán đó được chia đều ra trên 1 cụm máy tính.
   - Ý tưởng của MapReduce:
@@ -60,3 +57,8 @@
      - Thống kê số từ khóa trên các hostnames.
      - Distributed Sort.
   - [Count k Word](https://colab.research.google.com/drive/1lkCCFtDqb6-IGOqea-hTYxLQFyiYppS8)
+## Spark Properties <a name="sparkprop"></a>
+  
+## Spark RDD <a name="sparkrdd"></a>
+  
+## Spark DataFrame <a name="sparkdata"></a>
