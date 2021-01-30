@@ -1,5 +1,11 @@
-# Tìm Hiểu Spark và MapReduce
-# Apache Spark
+# MỤC LỤC
+1.[Tìm Hiểu Spark và MapReduce](#spark-map)
+2.[Apache Spark](#Apachespark)
+3. [MapReduce](#Mapreduce)
+
+
+# Tìm Hiểu Spark và MapReduce <a name="#spark-map"></a>
+# Apache Spark <a name="#Apachespark"></a>
   - Được phát triển vào năm 2009 bởi AMPLab. Sau này Apache Software Foundation đã được trao quyền phát triển vào năm 2013.
   - Apache spark là một công cụ tính toán dữ liệu mã nguồn mở. Apache spark được thiết kế để hỗ trợ trong tính toán dữ liệu lớn, stream data, graph data và hỗ trợ các hệ thống trí tuệ nhân tạo, học máy.
   - Tính năng nổi bật của Spark: tốc độ tính toán nhanh, hỗ trợ đa định dạng, và có nhiều thư viện hỗ trợ tính toán, đơn giản:
@@ -17,7 +23,7 @@
    - Spark là một công cụ quan trọng cốt lõi để xây dựng cái data warehouse cũng như xử lý lượng dữ liệu khổng lồ được tạo ra liên tục trên môi trường mạng. Đây là một phân khúc lớn trong ngành IT có khả năng thu về hàng tỉ đô doanh thu hằng năm.
    - Spark tạo ra nhiều lựa chọn cho các công cụ sử dụng hơn là chỉ mỗi Hadoop.
   
-# MapReduce
+# MapReduce <a name="##Mapreduce"></a>
   - MapReduce là mô hình tính toán được thiết kế có khả năng xử lý các tập dữ liệu lớn song song và công việc tính toán đó được chia đều ra trên 1 cụm máy tính.
   - Ý tưởng của MapReduce:
     - Chia vấn đề cần xử lý thành các phần nhỏ để xử lý.
