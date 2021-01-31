@@ -73,4 +73,29 @@
     - flatMap: cung cấp một hàm đơn giản hơn hàm map. Yêu cầu output của map phải là một structure có thể lặp và mở rộng được.
     - sortBy: mô tả một hàm để trích xuất dữ liệu từ các object của RDD và thực hiện sort được từ đó.
     - randomSplit: nhận một mảng trọng số và tạo một random seed, tách các RDD thành một mảng các RDD có số lượng chia theo trọng số.
+  - Một số action:
+    - reduce: thực hiện hàm reduce trên RDD để thu về 1 giá trị duy nhất
+    - count: đếm số dòng trong RDD
+    - countApprox: phiên bản đếm xấp xỉ của count, nhưng phải cung cấp timeout vì có thể không nhận được kết quả.
+    - countByValue: đếm số giá trị của RDD chỉ sử dụng nếu map kết quả nhỏ vì tất cả dữ liệu sẽ được load lên memory của driver để tính toán chỉ nên sử dụng trong tình huống số dòng nhỏ và số lượng item khác nhau cũng nhỏ.
+    - countApproxDistinct: đếm xấp xỉ các giá trị khác nhau
+    - countByValueApprox: đếm xấp xỉ các giá trị
+    - first: lấy giá trị đầu tiên của dataset
+    - max và min: lần lượt lấy giá trị lớn nhất và nhỏ nhất của dataset
+    - take và các method tương tự: lấy một lượng giá trị từ trong RDD. take sẽ trước hết scan qua một partition và sử dụng kết quả để dự đoán số lượng partition cần phải lấy thêm để thỏa mãn số lượng lấy.
+    - top và takeOrdered: top sẽ hiệu quả hơn takeOrdered vì top lấy các giá trị đầu tiên được sắp xếp ngầm trong RDD.
+    - takeSamples: lấy một lượng giá trị ngẫu nhiên trong RDD
+    ```
+    !pip install pyspark
+
+    from pyspark import SparkContext, SparkConf
+
+    conf = SparkConf().setMaster("local").setAppName("word counting")
+    sc = SparkContext.getOrCreate(conf=conf)
+
+    data = [('a', 5), ('b', 2), ('1', 4), ('d', 3), ('2', 1)]
+    distData = sc.parallelize(data)
+    distData = distData.sortBy(lambda x: x[0])
+    distData.collect()
+    ```
 ## Spark DataFrame <a name="sparkdata"></a>
