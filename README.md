@@ -60,5 +60,10 @@
 ## Spark Properties <a name="sparkprop"></a>
   
 ## Spark RDD <a name="sparkrdd"></a>
-  
+  - Resilient Distributed Datasets (RDD) là một cấu trúc dữ liệu cơ bản của Spark.
+  - Nó là một tập hợp bất biến phân tán của một đối tượng. Mỗi dataset trong RDD được chia ra thành nhiều phần vùng logical. Có thể được tính toán trên các node khác nhau của một cụm máy chủ (cluster).
+  - RDDs có thể chứa bất kỳ kiểu dữ liệu nào của Python, Java, hoặc đối tượng Scala, bao gồm các kiểu dữ liệu do người dùng định nghĩa.
+  - Có hai cách để tạo RDDs:
+    . Tạo từ một tập hợp dữ liệu có sẵn trong ngôn ngữ sử dụng như Java, Python, Scala.
+    . Lấy từ dataset hệ thống lưu trữ bên ngoài như HDFS, Hbase hoặc các cơ sở dữ liệu quan hệ.
 ## Spark DataFrame <a name="sparkdata"></a>
