@@ -66,4 +66,5 @@
   - Có hai cách để tạo RDDs:
     - Tạo từ một tập hợp dữ liệu có sẵn trong ngôn ngữ sử dụng như Java, Python, Scala.
     - Lấy từ dataset hệ thống lưu trữ bên ngoài như HDFS, Hbase hoặc các cơ sở dữ liệu quan hệ.
+  
 ## Spark DataFrame <a name="sparkdata"></a>
