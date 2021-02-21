@@ -58,7 +58,8 @@
      - Distributed Sort.
   - [Count k Word](https://colab.research.google.com/drive/1lkCCFtDqb6-IGOqea-hTYxLQFyiYppS8)
 ## Spark Properties <a name="sparkprop"></a>
-  
+  - Spark properties điều khiển hầu hết các cài đặt ứng dụng và được cấu hình riêng biệt cho mỗi ứng dụng. Các thuộc tính này có thể được cài đặt một cách trực tiếp trên SparkConf và được chuyển tới SparkContext.SparkConf cho phép bạn cấu hình một vài thuộc tính phổ biến (chẳng hạn như master URL và application name), cũng như các cặp key – value khác thông qua phương thức set().
+Lưu ý rằng chúng ta có thể có nhiều hơn một luồng trong local mode, và trong những trường hợp như Spark Streaming, chúng ta có thể yêu cầu nhiều hơn 1 luồng để tránh bất kì vấn đề thiếu sót nào.
 ## Spark RDD <a name="sparkrdd"></a>
   - Resilient Distributed Datasets (RDD) là một cấu trúc dữ liệu cơ bản của Spark.
   - Nó là một tập hợp bất biến phân tán của một đối tượng. Mỗi dataset trong RDD được chia ra thành nhiều phần vùng logical. Có thể được tính toán trên các node khác nhau của một cụm máy chủ (cluster).
