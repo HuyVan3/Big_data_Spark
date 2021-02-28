@@ -2,9 +2,7 @@
 1. [Tìm Hiểu Spark và MapReduce](#sparkmap)
 2. [Apache Spark là gì](#Apachespark)
 3. [MapReduce](#Mapreduce)
-4. [Spark properties](#sparkprop)
-5. [Spark RDD](#sparkrdd)
-6. [Spark DataFrame](#sparkdata)
+
 
 
 ## Tìm Hiểu Spark và MapReduce <a name="sparkmap"></a>
