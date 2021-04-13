@@ -1,6 +1,6 @@
-# Spark-MapReduce
+# 
 
-# TỔNG QUAN VỀ SPARK RDD *(RESILIENT DISTRIBUTED DATASETS)*
+# SPARK RDD (RESILIENT DISTRIBUTED DATASETS)
 
 Tập dữ liệu phân tán phục hồi (RDD - Resilient Distributed Datasets) một cấu trúc dữ liệu cơ bản của Spark. Nó là một tập hợp bất biến phân tán của một đối tượng. Mỗi dataset trong RDD được chia ra thành nhiều phần vùng logical. Có thể được tính toán trên các node khác nhau của một cụm máy chủ (cluster).
 
