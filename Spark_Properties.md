@@ -84,7 +84,6 @@ Ví dụ:
 
 spark.app.name - Tên ứng dụng của bạn, được hiển thị trong giao diện người dùng và trong dữ liệu nhật ký.
 
-![Spark app name](../Image/Spark_app_name.png)
 
 Ngoài ra còn nhiều thuộc tính khác như:
 
@@ -108,7 +107,6 @@ Ví dụ:
 
 spark.eventLog.enabled - Có ghi lại các sự kiện Spark hay không, hữu ích trong việc tạo lại giao diện người dùng Web sau khi ứng dụng hoàn tất.
 
-![spark.eventLog.enabled](../Image/Spark_eventLog_enabled.png)
 
 Một vài thuộc tính khác:
 
