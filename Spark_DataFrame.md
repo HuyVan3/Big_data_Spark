@@ -53,7 +53,7 @@ DataFrame có một bộ API phong phú hỗ trợ đọc và ghi một số đ�
 
 # VÍ DỤ SỬ DỤNG DATAFRAME LOAD DATA TỪ 1 FILE CSV
 
-Link Google Colab ví dụ: 
+Link Google Colab ví dụ: https://colab.research.google.com/drive/1rm6VhOpiwT2On7u4VINOhjIIVv5RzGF3?usp=sharing
 
 
 # TÀI LIỆU THAM KHẢO
