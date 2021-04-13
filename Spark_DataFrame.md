@@ -13,7 +13,7 @@ Dataframe thường đề cập đến một cấu trúc dữ liệu, có bản 
 
 # ĐẶC ĐIỂM DATAFRAME
 
-![features_spark_dataframe](../Image/features_spark_dataframe.png)
+![features_spark_dataframe](https://www.edureka.co/blog/content/ver.1554792280/uploads/2019/04/Picture11.png)
 
 * Các khung dữ liệu được phân phối trong tự nhiên, điều này làm cho nó có khả năng chịu lỗi và cấu trúc dữ liệu có sẵn cao.
 * Đánh giá lười biếng là một chiến lược đánh giá giữ việc đánh giá một biểu thức cho đến khi giá trị của nó là cần thiết. Nó tránh đánh giá lặp lại. Đánh giá lười biếng trong Spark có nghĩa là quá trình thực thi sẽ không bắt đầu cho đến khi một hành động được kích hoạt. Trong Spark, bức tranh về sự lười biếng xuất hiện khi các phép biến đổi Spark xảy ra.
@@ -23,7 +23,7 @@ Dataframe thường đề cập đến một cấu trúc dữ liệu, có bản 
 
 DataFrame trong Pyspark có thể được tạo theo nhiều cách:
 
-![sources_spark_dataframe](../Image/sources_spark_dataframe.png)
+![sources_spark_dataframe](https://www.analyticsvidhya.com/wp-content/uploads/2016/10/DataFrame-in-Spark.png)
 
 Dữ liệu có thể được tải vào thông qua tệp CSV, JSON, XML hoặc tệp Parquet. Nó cũng có thể được tạo bằng cách sử dụng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive Table hay Apache Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
 
@@ -35,7 +35,7 @@ Giống như RDD, DataFrame cũng có các hoạt động như Biến đổi (Da
 
 
 ## Các định dạng tệp được hỗ trợ
-
+![Dataframe_source](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/04/new-2-768x448.png)
 DataFrame có một bộ API phong phú hỗ trợ đọc và ghi một số định dạng tệp như:
 
 * csv
