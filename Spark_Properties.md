@@ -70,7 +70,7 @@ spark.serializer        org.apache.spark.serializer.KryoSerializer
 Apache spark cung cấp một bộ giao diện người dùng web tại địa chỉ http://localhost:4040 (Jobs, Stages, Tasks, Storage, Environment, Executors, and SQL). Vào thẻ Environment để xem danh sách các thuộc tính của Spark:
 
 
-![Spark properties](../Image/Spark_properties.png)
+![Spark properties](../Source/Spark_UI.png)
 
 Ngoài ra có thể xác định giá trị mặc định thông qua spark-defaults.conf, SparkConf. Đối với các thuộc tính cấu hình khác, giá trị mặc định sẽ được áp dụng.
 
@@ -151,6 +151,6 @@ Ngoài các loại thuộc tính trên, Spark còn hỗ trợ nhiều loại thu
 
 * https://spark.apache.org/docs/latest/configuration.html
 * https://docs.cloudera.com/runtime/7.2.6/running-spark-applications/topics/spark-configure-properties-spark-defaults-conf.html
-* https://sparkbyexamples.com/pyspark-tutorial/
+
 
 </div>
