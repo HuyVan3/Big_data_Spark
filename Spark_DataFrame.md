@@ -7,9 +7,10 @@ Theo Databricks, DataFrame là một tập hợp dữ liệu phân tán được
 
 Dataframe thường đề cập đến một cấu trúc dữ liệu, có bản chất là dạng bảng. Nó đại diện cho các Hàng, mỗi hàng bao gồm một số quan sát. Các hàng có thể có nhiều định dạng dữ liệu khác nhau (Không đồng nhất), trong khi một cột có thể có dữ liệu có cùng kiểu dữ liệu (Đồng nhất). Khung dữ liệu thường chứa một số siêu dữ liệu ngoài dữ liệu; ví dụ, tên cột và hàng.
 
-![Spark_DataFrame_Define](../Image/Spark_dataframe_define.jpg)
+![Spark_DataFrame_Define](https://user-images.githubusercontent.com/77387844/114503872-2a8ef880-9c58-11eb-9ca8-6dc71f4276f1.png)
 
-![spark_dataframes_define_2](../Image/spark_dataframes_define_2.png)
+
+
 
 # ĐẶC ĐIỂM DATAFRAME
 
