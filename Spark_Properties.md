@@ -62,8 +62,8 @@ spark.serializer        org.apache.spark.serializer.KryoSerializer
 
 - Các thuộc tính của Spark chủ yếu có thể được chia thành hai loại:
 
-- * một là liên quan đến triển khai, như **spark.driver.memory**, **spark.executor.instances**, loại thuộc tính này có thể không bị ảnh hưởng khi thiết lập theo chương trình **SparkConf** trong thời gian chạy, hoặc hành vi tùy thuộc vào trình quản lý cụm và chế độ triển khai mà bạn chọn, vì vậy bạn nên đặt thông qua file cấu hình hoặc tùy chọn dòng lệnh trên **spark-submit**.
+  * một là liên quan đến triển khai, như **spark.driver.memory**, **spark.executor.instances**, loại thuộc tính này có thể không bị ảnh hưởng khi thiết lập theo chương trình **SparkConf** trong thời gian chạy, hoặc hành vi tùy thuộc vào trình quản lý cụm và chế độ triển khai mà bạn chọn, vì vậy bạn nên đặt thông qua file cấu hình hoặc tùy chọn dòng lệnh trên **spark-submit**.
 
-- * một cái khác chủ yếu liên quan đến kiểm soát thời gian chạy Spark, như **spark.task.maxFailures**, loại thuộc tính này có thể được đặt theo một trong hai cách.
+  * một cái khác chủ yếu liên quan đến kiểm soát thời gian chạy Spark, như **spark.task.maxFailures**, loại thuộc tính này có thể được đặt theo một trong hai cách.
 
 # XEM THUỘC TÍNH CỦA SPARK *(VIEWING SPARK PROPERTIES)*
