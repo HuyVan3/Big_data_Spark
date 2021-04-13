@@ -83,7 +83,7 @@ Trên PySpark RDD, bạn có thể thực hiện hai loại hoạt động:
 
 * Các hành động RDD **(RDD actions)** - các hoạt động kích hoạt tính toán và trả về các giá trị RDD cho trình điều khiển.
 
-![Spark_transformation_action](../Image/Spark_transformation_action.png)
+![Spark_transformation_action](https://intellipaat.com/mediaFiles/2015/08/Operations-on-RDDs.png)
 
 ## Làm việc với các cặp khoá - giá trị *(Working with Key-Value Pairs)*
 
@@ -160,7 +160,7 @@ Một số RDD actions:
 
 ## Google Colab
 
-<div align="left">Link Google Colab ví dụ: https://colab.research.google.com/drive/1SLXlpPa2qJqnLuiJ5OxNc7dsvRbnEtbM?usp=sharing</div>
+Link Google Colab ví dụ: 
 
 # TÀI LIỆU THAM KHẢO
 
@@ -174,4 +174,3 @@ Một số RDD actions:
 * https://laptrinh.vn/link/93#bkmrk-t%E1%BA%A1o-t%E1%BB%AB-m%E1%BB%99t-t%E1%BA%ADp-h%E1%BB%A3p-d
 * https://www.oreilly.com/library/view/learning-spark/9781449359034/ch04.html#:~:text=Spark%20provides%20special%20operations%20on,regroup%20data%20across%20the%20network.
 
-</div>
