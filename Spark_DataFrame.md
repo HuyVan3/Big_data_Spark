@@ -36,6 +36,7 @@ Giống như RDD, DataFrame cũng có các hoạt động như Biến đổi (Da
 
 ## Các định dạng tệp được hỗ trợ
 ![Dataframe_source](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/04/new-2-768x448.png)
+
 DataFrame có một bộ API phong phú hỗ trợ đọc và ghi một số định dạng tệp như:
 
 * csv
