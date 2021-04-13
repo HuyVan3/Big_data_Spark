@@ -51,7 +51,7 @@ DataFrame có một bộ API phong phú hỗ trợ đọc và ghi một số đ�
 * tsv
 * xml và nhiều hơn nữa,...
 
-# VÍ DỤ CỤ THỂ VIỆC SỬ DỤNG DATAFRAME LOAD DATA TỪ 1 FILE CSV
+# VÍ DỤ SỬ DỤNG DATAFRAME LOAD DATA TỪ 1 FILE CSV
 
 Link Google Colab ví dụ: 
 
