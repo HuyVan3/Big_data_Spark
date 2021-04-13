@@ -9,7 +9,7 @@ Dataframe thường đề cập đến một cấu trúc dữ liệu, có bản 
 ![why_use_dataframe](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/04/new-3-528x270.png)
  - ***Tương thích nhiều ngôn ngữ lập trình (Multiple Programming languages)***:
    - Dataframe trong Spark hỗ trợ nhiều ngôn ngữ lập trình bao gồm. R, Python, Scala, Java
- - Nhiều Nguồn dữ liệu (Multiple data sources).
+ - ***Nhiều Nguồn dữ liệu (Multiple data sources)***.
    - Dataframe trong Spark hỗ trợ nhiều nguồn dữ liệu khác nhau.
  - ***Xử lý dữ liệu có cấu trúc và bán cấu trúc (Processing Structured and Semi-Structured Data)***:
    - DataFrames được thiết kế để xử lý một tập hợp lớn dữ liệu có cấu trúc cũng như bán cấu trúc . 
